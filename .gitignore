@@ -124,9 +124,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-__pycache__/menu.cpython-37.pyc
-__pycache__/config.cpython-37.pyc
-.idea/workspace.xml
-.idea/vcs.xml
-.idea/TicTac.iml
-.idea/misc.xml
