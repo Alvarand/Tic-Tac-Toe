@@ -21,6 +21,8 @@ def create_canvas():
     label_cross.place(x=700, y=160)
     label_circle = tkinter.Label(text='O: ' + ''.join(str(config.CIRCLE_WIN)), font='Arial 40')
     label_circle.place(x=700, y=360)
+    label_flag = tkinter.Label(text='Ходит: ' + config.FLAG, font='Arial 40')
+    label_flag.place(x=650, y=70)
 
 
 create_canvas()

@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1c0eaa6-9d19-4755-a98a-66167ff5e56a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/menu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../locallibrary/.idea/locallibrary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../locallibrary/.idea/locallibrary.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../locallibrary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../locallibrary/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../locallibrary/catalog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../locallibrary/catalog/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../locallibrary/catalog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../locallibrary/catalog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../locallibrary/locallibrary/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../locallibrary/locallibrary/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../locallibrary/locallibrary/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../locallibrary/locallibrary/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +25,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../locallibrary" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fBuzojgODqsDdnix74MyvsbJNL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -47,9 +47,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\maks2\Desktop\GitHub\Tic-Tac-Toe\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -84,6 +84,10 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.menu" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
@@ -102,6 +106,7 @@
       <option name="presentableId" value="Default" />
       <updated>1595704071248</updated>
       <workItem from="1595704082675" duration="6159000" />
+      <workItem from="1596058726259" duration="1374000" />
     </task>
     <servers />
   </component>
@@ -109,32 +114,41 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="414" y="209" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596058742123">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="414" y="209" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1596058742123" />
+    <state x="679" y="211" key="#menu" timestamp="1596060095383">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="679" y="211" key="#menu/0.30.1920.1050@0.30.1920.1050" timestamp="1596060095383" />
     <state x="740" y="309" key="FileChooserDialogImpl" timestamp="1595704158047">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="740" y="309" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1595704158047" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1595710246333">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1596060264178">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1595710246333" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1595710246332">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1596060264178" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1596060264177">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1595710246332" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1595710246332">
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1596060264177" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1596060264177">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1595710246332" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1595710246332">
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1596060264177" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1596060264178">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1595710246332" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1596060264178" />
     <state x="623" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1595705044599">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="623" y="257" width="672" height="678" key="search.everywhere.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1595705044599" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Tic_Tac_Toe$main.coverage" NAME="main Coverage Results" MODIFIED="1596060264161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TicTac$menu.coverage" NAME="menu Coverage Results" MODIFIED="1595706998812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TicTac$main.coverage" NAME="main Coverage Results" MODIFIED="1595710006560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
