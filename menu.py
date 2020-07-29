@@ -1,18 +1,28 @@
 import tkinter
 from tkinter import messagebox
-from config import *
+import config
+from config import WIDTH, HEIGHT
 
 root = tkinter.Tk()
 root.title('TicTac')
-root.maxsize(WIDTH, HEIGHT)
-root.minsize(WIDTH, HEIGHT)
-canvas = tkinter.Canvas(root, width=WIDTH + 300, height=HEIGHT)
-canvas.grid()
+root.geometry(''.join(str(WIDTH + 300)) + 'x' + ''.join(str(HEIGHT)))
+root.resizable(width=False, height=False)
+canvas = tkinter.Canvas(root, width=WIDTH, height=HEIGHT)
+canvas.place(x=0, y=0)
 
-line_1 = canvas.create_line(WIDTH // 3, 0, WIDTH // 3, HEIGHT)
-line_2 = canvas.create_line(2 * WIDTH // 3, 0, 2 * WIDTH // 3, HEIGHT)
-line_3 = canvas.create_line(0, HEIGHT // 3, WIDTH, HEIGHT // 3)
-line_4 = canvas.create_line(0, 2 * HEIGHT // 3, WIDTH, 2 * HEIGHT // 3)
 
+def create_canvas():
+    global CIRCLE_WIN, CROSS_WIN
+    canvas.delete('all')
+    for i in range(1, 4):
+        line = canvas.create_line(i * WIDTH // 3, 0, i * WIDTH // 3, HEIGHT)
+        line = canvas.create_line(0, i * HEIGHT // 3, WIDTH, i * HEIGHT // 3)
+    label_cross = tkinter.Label(text='X: ' + ''.join(str(config.CROSS_WIN)), font='Arial 40')
+    label_cross.place(x=700, y=160)
+    label_circle = tkinter.Label(text='O: ' + ''.join(str(config.CIRCLE_WIN)), font='Arial 40')
+    label_circle.place(x=700, y=360)
+
+
+create_canvas()
 CROSS = tkinter.PhotoImage(file='figure/cross.png')
 CIRCLE = tkinter.PhotoImage(file='figure/circle.png')
